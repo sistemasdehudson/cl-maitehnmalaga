@@ -1,8 +1,8 @@
 {
-    'name': 'maitehnmaritimo',
+    'name': 'maitehnmalaga',
     'version': '13.0.0.0',
     'category': 'Tools',
-    'summary': "Proyecto maitehnmaritimo",
+    'summary': "Proyecto maitehnmalaga",
     'author': 'Sdeh',
     'depends': [
         'base',
@@ -17,7 +17,7 @@
     'limit_memory_hard': '760000000',
     'limit_time_cpu': '60',
     'limit_time_real': '120',
-    'dbfilter': 'maritimo.maitehn',
+    #'dbfilter': 'maritimo.maitehn',
 
     # manifest version, if omitted it is backward compatible
     'env-ver': '2',
@@ -30,16 +30,16 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/sistemasdehudson/cl-maitehnmaritimo',
+        'https://github.com/sistemasdehudson/cl-maitehnmalaga',
         'https://github.com/regaby/odoo-custom.git',
         ##'https://github.com/regaby/l10n_ar_fe_qr',
-        'https://github.com/regaby/l10n_ar_fe_qr ctmil/l10n_ar_fe_qr',
+        #'https://github.com/regaby/l10n_ar_fe_qr ctmil/l10n_ar_fe_qr',
         'https://github.com/regaby/sdeh-pos.git',
         'https://github.com/jobiols/odoo-addons.git',
         ## localización
-        'https://github.com/ingadhoc/odoo-argentina.git',
-        'https://github.com/ingadhoc/odoo-argentina-ce.git',
-        'https://github.com/ingadhoc/argentina-sale.git',
+        #'https://github.com/ingadhoc/odoo-argentina.git',
+        #'https://github.com/ingadhoc/odoo-argentina-ce.git',
+        #'https://github.com/ingadhoc/argentina-sale.git',
         'https://github.com/ingadhoc/account-payment.git',
         'https://github.com/ingadhoc/account-invoicing.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
@@ -47,6 +47,9 @@
         'https://github.com/ingadhoc/stock.git',
         'https://github.com/ingadhoc/aeroo_reports.git',
         'https://github.com/ingadhoc/website.git',
+        ##localizacion espana
+        'https://github.com/OCA/l10n-spain.git',
+        ##otros
         'https://github.com/OCA/account-financial-reporting.git',
         'https://github.com/OCA/reporting-engine.git',
         'https://github.com/OCA/server-ux.git',
@@ -66,7 +69,7 @@
         'https://github.com/OCA/pos.git',
         ##'https://github.com/oca/report-print-send/tree/13.0',
         'https://github.com/OCA/report-print-send.git',
-        'https://github.com/pronexo-argentina/pos_proxy_services.git -b 13.0',
+        ##'https://github.com/pronexo-argentina/pos_proxy_services.git -b 13.0',
     ],
 
     'docker-images': [
