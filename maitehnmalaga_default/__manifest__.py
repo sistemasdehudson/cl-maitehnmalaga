@@ -41,8 +41,8 @@
         #'https://github.com/ingadhoc/odoo-argentina-ce.git',
         #'https://github.com/ingadhoc/argentina-sale.git',
         'https://github.com/ingadhoc/account-payment.git',
-        'https://github.com/ingadhoc/account-invoicing.git',
-        'https://github.com/ingadhoc/account-financial-tools.git',
+        #'https://github.com/ingadhoc/account-invoicing.git',
+        #'https://github.com/ingadhoc/account-financial-tools.git',
         'https://github.com/ingadhoc/sale.git',
         'https://github.com/ingadhoc/stock.git',
         'https://github.com/ingadhoc/aeroo_reports.git',
@@ -70,6 +70,9 @@
         ##'https://github.com/oca/report-print-send/tree/13.0',
         'https://github.com/OCA/report-print-send.git',
         ##'https://github.com/pronexo-argentina/pos_proxy_services.git -b 13.0',
+        'https://github.com/OCA/bank-payment.git',
+        'https://github.com/OCA/account-financial-tools.git',
+        'https://github.com/OCA/account-invoicing.git',
     ],
 
     'docker-images': [
