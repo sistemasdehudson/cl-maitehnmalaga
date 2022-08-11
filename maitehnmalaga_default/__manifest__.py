@@ -73,6 +73,7 @@
         'https://github.com/OCA/bank-payment.git',
         'https://github.com/OCA/account-financial-tools.git',
         'https://github.com/OCA/account-invoicing.git',
+        'https://github.com/OCA/community-data-files.git',
     ],
 
     'docker-images': [
